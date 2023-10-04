@@ -23,13 +23,10 @@
 import {
   Component,
   Input,
-  OnChanges,
-  OnInit,
   ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  SimpleChanges
+  ChangeDetectorRef
 } from '@angular/core';
-import { List, Set } from 'immutable';
+import { Set } from 'immutable';
 
 import { AbstractFieldComponent } from '../abstract-field';
 import {
